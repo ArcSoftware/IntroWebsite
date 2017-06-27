@@ -53,6 +53,9 @@ https://speckyboy.com/css-javascript-text-animation-snippets/
 
 
 ### Additional Topics: 
+##### Fun Page!
+- Lets play with JS!
+https://dcrazed.com/creative-javascript-examples/
 ##### Gulp for minified
 - Why minified?
 - Gulp dev in terminal
