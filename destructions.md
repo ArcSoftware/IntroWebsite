@@ -1,5 +1,5 @@
 #Welcome to the BootStrap Crash Coarse!
-###My name is Jake Tepper and I'm a recent alumni of The Iron Yard. 
+###My name is Jake and an alumni of The Iron Yard. 
 If you care to know more about me, here is a link to my website - jaketepper.herokuapp.com
 
 ##Bootstrap
@@ -61,6 +61,7 @@ https://dcrazed.com/creative-javascript-examples/
 - Gulp dev in terminal
 ##### Album page for API
 - Showing dynamic page with backend and API usage. 
+##### Heroku deployment!
 
 
 
