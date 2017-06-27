@@ -33,12 +33,6 @@ public class IntroWebsiteController {
         return "albums";
     }
 
-    @RequestMapping(path = "/soundboard", method = RequestMethod.GET)
-    public String homePage(Model model, String name, String version) {
-        model.addAttribute("soundname", name);
-        model.addAttribute("version", version);
-        return "soundboard";
-    }
 
     @RequestMapping(path = "/weather", method = RequestMethod.GET)
     public String weather(Model model) {
@@ -55,24 +49,9 @@ public class IntroWebsiteController {
         model.addAttribute("allAlbums", true);
         return "albums";
     }
-//
-//    @RequestMapping(path = "/chatroom", method = RequestMethod.GET)
-//    public String chatroom(Model model) {
-//        List<Message> allMessages= messageRepo.findFirst5ByOrderByIdDesc();
-//        Collections.reverse(allMessages);
-//        model.addAttribute("messages", allMessages);
-//        return "chatroom";
-//    }
-//    @RequestMapping(path = "/addmessage", method = RequestMethod.POST)
-//    public String messagePost(Model model, String message) {
-//        Authentication currentAuth = SecurityContextHolder.getContext().getAuthentication();
-//        String currentUser = currentAuth.getName();
-//        msg.createMessage(currentUser, message);
-//        return "redirect:/chatroom";
-//    }
-//
-//    @RequestMapping(path = "/adminchat", method = RequestMethod.GET)
-//    public String adminPage(Model model) {
-//        return "adminchat";
-//    }
+
+    @RequestMapping(path = "/fun", method = RequestMethod.GET)
+    public String fun() {
+        return "funpage";
+    }
 }
