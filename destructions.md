@@ -1,6 +1,7 @@
 #Welcome to the BootStrap Crash Coarse!
 ###My name is Jake and an alumni of The Iron Yard. 
 If you care to know more about me, here is a link to my website - jaketepper.herokuapp.com
+This is best bootstrap crash course.
 
 ##Bootstrap
 Bootstrap is a HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.
